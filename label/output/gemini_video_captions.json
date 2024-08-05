@@ -1,0 +1,10 @@
+[
+  {
+    "video": "./videos/0.mp4",
+    "caption": "The video shows a single object, a skull. The skull is located in the center of the frame. It remains stationary throughout the video. \n"
+  },
+  {
+    "video": "./videos/1.mp4",
+    "caption": "The video shows a device with a red light on top and a gun lying to the right of it. The device is on a gray surface, and the gun is slightly angled.  The gun and the device are still throughout the video.  The device has a green and silver outer shell.  A pink object labeled with the number '1' is located above the device.  There are no movements or changes in position of the objects. \n"
+  }
+]
