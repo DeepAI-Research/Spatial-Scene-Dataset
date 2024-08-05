@@ -1,26 +1,16 @@
-"""
-Install the Google AI Python SDK
-
-$ pip install google-generativeai
-
-See the getting started guide for more information:
-https://ai.google.dev/gemini-api/docs/get-started/python
-"""
-
 import os
 import time
 import json
 import google.generativeai as genai
 from dotenv import load_dotenv
 
-# Load environment variables from the .env file
 load_dotenv()
 
-# Configure your API key
 genai.configure(api_key=os.environ["GEMINI_API_KEY"])
 
 def upload_to_gemini(path, mime_type=None):
-    """Uploads the given file to Gemini.
+    """
+    Uploads the given file to Gemini.
 
     See https://ai.google.dev/gemini-api/docs/prompting_with_media
     """
@@ -29,7 +19,8 @@ def upload_to_gemini(path, mime_type=None):
     return file
 
 def wait_for_files_active(files):
-    """Waits for the given files to be active.
+    """
+    Waits for the given files to be active.
 
     Some files uploaded to the Gemini API need to be processed before they can be
     used as prompt inputs. The status can be seen by querying the file's "state"
@@ -96,7 +87,6 @@ def generate_caption(video_path, prompt_text):
 
     return response.text
 
-# Define your prompt
 prompt = """
 Analyze this video sequence and describe:
 1. The main objects present
@@ -107,7 +97,6 @@ Do not describe camera movements or general scene descriptions.
 Provide a concise summary.
 """
 
-# Example usage with local video paths
 video_paths = ["./videos/0.mp4", "./videos/1.mp4"]  # Add your video paths here
 
 video_captions = []
