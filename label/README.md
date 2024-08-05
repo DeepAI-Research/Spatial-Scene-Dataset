@@ -2,6 +2,8 @@
 
 ### Installation 
 
+To get an API key and setup go to [Gemini](https://ai.google.dev/gemini-api)
+
 ```bash
 pip install google-generativeai
 ```
