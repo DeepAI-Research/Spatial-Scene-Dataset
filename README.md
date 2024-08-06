@@ -5,6 +5,11 @@ Includes the following:
 
 ### Data
 
+Target: 400 hours of video data total
+Split: 3:1 split of synthetic:realworld data
+
+HF: https://huggingface.co/datasets/DeepAIResearch/SpatialSceneDataset
+
 - Pexels (copyright free videos): https://www.pexels.com/search/videos/objects/
 - Video Object Relation Dataset (from Yahoo): ttps://xdshang.github.io/docs/vidor.html
 - Multiple Object Tracking Dataset https://motchallenge.net/data/MOT17/
