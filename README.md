@@ -5,7 +5,7 @@ Includes the following:
 
 ### Data
 
-Target: 400 hours of video data total
+Target: 400 hours of video data total <br>
 Split: 3:1 split of synthetic:realworld data
 
 HF: https://huggingface.co/datasets/DeepAIResearch/SpatialSceneDataset
