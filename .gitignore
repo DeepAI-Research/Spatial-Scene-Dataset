@@ -1,0 +1,6 @@
+**/.env
+__pycache__/
+non_matching_videos.txt
+video_paths.txt
+videos_to_remove.txt
+.DS_Store
