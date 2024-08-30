@@ -26,7 +26,7 @@ def combine_json_files(directory, output_filename):
     print(f"Total JSON length: {total_json_length}")
 
 # Set the directory containing your JSON files
-json_directory = '/Users/ericsheen/Desktop/DeepAI_Research/Spatial-Scene-Dataset/scripts/json'
+json_directory = '/Users/ericsheen/Desktop/DeepAI_Research/Spatial-Scene-Dataset/filter/output'
 output_file = './data.json'
 
 # Combine the JSON files

@@ -8,5 +8,5 @@ def num_files_in_dir(directory):
     return count
 
 if __name__ == "__main__":
-    directory = "/Users/ericsheen/Desktop/DeepAI_Research/SSD"
+    directory = "/Users/ericsheen/Desktop/DeepAI_Research/Spatial-Scene-Synthetic-Dataset"
     print(f"Number of files in directory: {num_files_in_dir(directory)}")
